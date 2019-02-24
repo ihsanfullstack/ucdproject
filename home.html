@@ -42,7 +42,137 @@
             </div>
         </div>
     </nav>
-    
+       <div class="container-fluid" style="background: url(/assets/the-blasters-background.jpg)">
+    <div class="container-fluid">
+        <div class="opaque-overlay">&nbsp;</div>
+        <!-- Callout -->
+        <div class="row" style="padding-top: 60px">
+            <div class="col-xs-12">
+                <section class="callout jumbotron text-center" style="background-color: rgba(255,255,14,0.8)">
+                    <h1>Real Music Is Still Alive & Kickin'!</h1>
+                    <hr class='block-divider block-divider--orange'>
+                    <p class="lead">We're currently touring Europe, and we'd love to have you at our next show!</p>
+                    <p><button class="btn btn-info btn--cta btn--red" data-toggle='modal' data-target='#signUpModal'>Get notified by email</button></p>
+                </section>
+            </div>
+        </div>
+        <!-- /.callout -->
+    </div>
+
+    <div class="container-wrapper" style="background-color: rgba(210,255,0,0.82)">
+        <div class="container quotes-container content-container text-center">
+            <!-- Quotes -->
+            <section class="quotes">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="page-header">
+                            <h2 class="text-uppercase" style="text-color: white">What The Band Says</h2>
+                            <hr class="block-divider block-divider--short">
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12 col-md-6" style="padding-top: 15px">
+                        <div class="media">
+                            <div class="media-right">
+                                <img src="/assets/keithwyatt.jpg" class="img-rounded media-object" height=250 width=250>
+                            </div>
+                            <div class="media-bottom">
+                                <blockquote class="quote">
+                                    <p stlye="text-color: white">We're really just trying to keep old school rock alive</p>
+                                    <footer>Keith Wyatt</footer>
+                                </blockquote>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-md-6" style="padding-top: 15px">
+                        <div class="media">
+                            <div class="media-right">
+                                <img src="/assets/philalvin.jpg" class="img-rounded media-object" height=250 width=250>
+                            </div>
+                            <div class="media-bottom">
+                                <blockquote class="quote">
+                                    <p>We're four guys plugged into an amp and a mic, no after affects - just raw music</p>
+                                    <footer>Phil Alvin</footer>
+                                </blockquote>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- /.quotes -->
+        </div>
+    </div>
+
+    <div class="container-wrapper container-wrapper--red" style="background-color: rgba(210,255,0,0.82); margin-bottom: 20px">
+        <div class="container features-container content-container">
+            <!-- Gigs -->
+            <section class="features">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="page-header">
+                            <h2 class="text-uppercase text-center">Next Shows</h2>
+                            <hr class="block-divider block-divider--short block-divider--white">
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12 col-md-6 col-lg-4">
+                        <div class="feature">
+                            <h3><span class="glyphicon glyphicon-calendar hidden-xs"></span>1st June 2019 <span class="label label-warning">Limited Seats</span></h3>
+                            <p> Castro Del Sol, Barcelona, Spain
+                            </p>
+                            <p><a class="btn btn-sm btn-default" href="">Book Tickets</a></p>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-md-6 col-lg-4">
+                        <div class="feature">
+                            <h3><span class="glyphicon glyphicon-calendar hidden-xs"></span> 3rd July 2019 </h3>
+                            <p> Monaco National Stadium, Monaco, Spain
+                            </p>
+                            <p><a class="btn btn-sm btn-default" href="">Book Tickets</a></p>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 hidden-md col-lg-4">
+                        <div class="feature">
+                            <h3><span class="glyphicon glyphicon-calendar hidden-xs"></span> 5th August 2019</h3>
+                            <p>O2 Arena, Dublin, Ireland
+                            </p>
+                            <p><a class="btn btn-sm btn-default" href="">Book Tickets</a></p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- /.features -->
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="signUpModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">We'll email you every month with upcoming show dates</h4>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="email">Email address</label>
+                            <input type="email" class="form-control" id="email" placeholder="Email">
+                            <p class="help-block">We'll never share your email address with anyone</p>
+                        </div>
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" class="form-control" id="password" placeholder="name">
+                        </div>
+                        <button type="submit" class="btn btn-success">Let's Rock</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
     	<footer class="container-fluid">
 			<div id="footer-details" class="row" style="background-color: #eae47a">
 				<div class="col-sm-4" style="padding-top: 15px">
@@ -80,3 +210,7 @@
 				</div>
 			</div>
 		</footer>
+		 <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</body>
+</html>
