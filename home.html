@@ -1,62 +1,82 @@
 <!DOCTYPE html>
-<!-- HTML5 Hello world by kirupa - http://www.kirupa.com/html5/getting_your_feet_wet_html5_pg1.htm -->
 <html lang="en-us">
 
 <head>
-<meta charset="utf-8">
-<title>Hello...</title>
-<style type="text/css">
-#mainContent {
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: xx-large;
-	font-weight: bold;
-	background-color: #E3F0FB;
-	border-radius: 4px;
-	padding: 10px;
-	text-align: center;
-}
-.buttonStyle {
-	border-radius: 4px;
-	border: thin solid #F0E020;
-	padding: 5px;
-	background-color: #F8F094;
-	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-	font-weight: bold;
-	color: #663300;
-	width: 75px;
-}
-
-.buttonStyle:hover {
-	border: thin solid #FFCC00;
-	background-color: #FCF9D6;
-	color: #996633;
-	cursor: pointer;
-}
-.buttonStyle:active {
-	border: thin solid #99CC00;
-	background-color: #F5FFD2;
-	color: #669900;
-	cursor: pointer;
-}
-
-</style>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale-1">
+    <title>The Blasters | Official Site</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,700,700i" rel="stylesheet">
+    <link rel="stylesheet" href="css /style2.css">
 </head>
 
 <body>
-<div id="mainContent">
-<p id="helloText">?</p>
-<button id="clickButton" class="buttonStyle">click me</button>
-</div>
-<script> 
-var myButton = document.getElementById("clickButton");
-var myText = document.getElementById("helloText");
+    <!-- link to code for the navbar - https://getbootstrap.com/docs/4.0/components/navbar/ -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a href="home.html" class="navbar-brand">
+                   <img class="img-rounded" src="assets/blasters.png" style="height: 55px;"></img>
+                </a>
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
 
-myButton.addEventListener('click', doSomething, false)
+            <div class="navbar-collapse collapse" id="navbar">
+                <ul class="nav navbar-nav">
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="upcominggigs.html">Upcoming Gigs</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="tunes.html">Tunes</a></li>
+                </ul>
 
-function doSomething() {
-	myText.textContent = "hello, world!";
-}
-</script>
-
-</body>
-</html>
+                <div class="navbar-header navbar-right hidden-xs">
+                    <a href="/login" class='btn btn-default navbar-btn'>Search Our Site</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    
+    	<footer class="container-fluid">
+			<div id="footer-details" class="row" style="background-color: #eae47a">
+				<div class="col-sm-4" style="padding-top: 15px">
+					<h4 class= "uppercase general-sub text-center">Our Story</h4>
+					<p class= "inline-block text-center">
+					    
+					    We're just four guys from California who love to rock, and we've been rockin' since 1979.
+						We have played at Band Aid, Rockphalast and Montreux Jazz Festival. 
+						
+					</p>
+				</div>
+				<div class="col-sm-4" style="padding-top:15px">
+					<h4 class= "uppercase general-sub text-center">Full Tour Schedule 2019</h4>
+					<p class="inline-block text-center">
+						Click here to view our full tour schedule for 2019 - 
+						<a href= "blank" target="_blank" class= "cv=pdf"><i class= "fa fa-globe" aria-hidden="true"></i></a>
+					</p>
+				</div>
+				<div class="col-sm-4" style="padding-top:15px">
+					<h4 class= "uppercase general-sub text-center">Follow Us</h4>
+					<ul class="list-inline social-links text-center">
+						<li>
+							<a target="_blank" href="https://www.linkedin.com/in/ihsan-penny-a3204649"><i class= "fa fa-linkedin" aria-hidden="true"></i></a>
+						</li>
+						<li>
+							<a target="_blank" href="https://www.linkedin.com/in/ihsan-penny-a3204649"><i class= "fa fa-facebook" aria-hidden="true"></i></a>
+						</li>
+						<li>
+							<a target="_blank" href="https://www.linkedin.com/in/ihsan-penny-a3204649"><i class= "fa fa-twitter" aria-hidden="true"></i></a>
+						</li>
+						<li>
+							<a target="_blank" href="https://www.linkedin.com/in/ihsan-penny-a3204649"><i class= "fa fa-instagram" aria-hidden="true"></i></a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</footer>
