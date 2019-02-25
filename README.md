@@ -59,13 +59,9 @@ Other things that I tested were the modals and if they worked etc, again I didn'
 
 # Deployment
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
-
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-
-Different values for environment variables (Heroku Config Vars)?
-Different configuration files?
-Separate git branch?
+I have deployed the project using github pages. 
+This was done simply by setting up same on the repository on github where I placed the files.
+When it comes to version control, since most of the page styling is the same, I added the footers, headers etc and then just committed each page as a new piece of functionality, it seemed to make sense that way.
 In order to run the code locally for this project, simply download all html files, ignoring the css style sheet since any css is embedded, and run same
 
 
