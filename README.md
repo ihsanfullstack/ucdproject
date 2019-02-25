@@ -49,13 +49,19 @@ When designing the wifeframes I worked on paper, since I was not collaborating a
 ### Features Left to Improve
 
 The booking function is left to improve, in that it doesn't work fully, i.e. doesn't re-direct
-The pictures in gallery.html, I couldn't figure out how to ge them to change based on hovering, I think I need javascript for this 
-The videos embedded via youtube load slowly, I'd like to speed this up - 
+
+The pictures in gallery.html - I couldn't figure out how to ge them to change based on hovering although this doesn't affect the mobile experience - I think I needed javascript for this 
+
+The videos embedded via youtube on the tunes page load slowly, I'd like to speed this up - this is something I should perhaps do locally.
+
+All in all the only thing I'd maybe tweak going forward would be the color palette - it seems to work and does look nice, but this would be an improvement, and having done some SCSS I'd use variables to do this so as to quickly change and test new palettes.
+
+I would also like to fully build out the search our site functionality and then include in this a seperate html page which would display content on the site that contained key words that a user searched for - this I think is helpful for the person who goes there with a clear outcome in mind and doesn't want to browse.
 
 ### Technologies Used
 
-Bootstrap, used to style everything, minimal CSS used - https://getbootstrap.com/
-jquery and some javascript plugins, though I used these as bootstrap told me to in order to run the modals etc. 
+Bootstrap, used to style everything, minimal CSS used (embedded) - https://getbootstrap.com/
+jquery and some javascript plugins, which were provided though I used these as bootstrap told me to in order to run the modals etc. 
 Any CSS used was done in embedded form, this really was because bootstrap did so much of the work for me.
 
 
@@ -63,7 +69,7 @@ Any CSS used was done in embedded form, this really was because bootstrap did so
 
 For my testing this was limited simply because my site is static and doesn't have any functionaltiy, as I understand this is the scope of the assignment. 
 
-The main testing occured simply by using google developer tools, and viewing the site on all different screen sizes. 
+The main testing occured simply by using google developer tools, and viewing the site on all different screen sizes for every different page, including testing the modals.
 
 I went through all pages, and tried every piece of them - they we're all fine. This is of course thanks to bootstrap. 
 
