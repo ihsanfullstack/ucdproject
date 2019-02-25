@@ -2,6 +2,7 @@
 
 This project is designed to showcase and highlight the great music made by the Blasters, one of my favourite bands. 
 It's goal is to provide the end user with excitement and inspiration such that they would possibly like to see the band play live, and to allow them to book tickets should they wish. 
+I have purposely left in the section of 3 most soon upcoming shows in most pages in the site in order to drive ticket sales and allow the user to do same. 
 The content is design to be just enough to fulfill this aim/goal. It is also my intention to show this to the band too, as I feel their existing site leaves a little to be desired. 
 **Please note I'm entirely new to this and I have not had a mentor for this project**
 
@@ -58,6 +59,8 @@ All in all the only thing I'd maybe tweak going forward would be the color palet
 
 I would also like to fully build out the search our site functionality and then include in this a seperate html page which would display content on the site that contained key words that a user searched for - this I think is helpful for the person who goes there with a clear outcome in mind and doesn't want to browse.
 
+On further retrospect I would have liked to have built a modal feature or similar which would serve the user with upcoming show dates. I would have liked to included this on the pages that weren't the upcominggigs page, so as to allow them to explore other dates without navigating to the upcoming show page. 
+
 ### Technologies Used
 
 Bootstrap, used to style everything, minimal CSS used (embedded) - https://getbootstrap.com/
@@ -84,7 +87,12 @@ Other things that I tested were the modals and if they worked etc, again I didn'
 I have deployed the project using github pages. 
 This was done simply by setting up same on the repository on github where I placed the files.
 When it comes to version control, since most of the page styling is the same, I added the footers, headers etc as commits and then just committed each page as a new piece of functionality, it seemed to make sense that way. I must also admit that the I initially didn't use github when coding the site, since it took me a bit of trial and error to get things to work and I simply saved them in cloud9, but I did commit the main pieces. 
-In order to run the code locally for this project, simply download all html files, ignoring the css style sheet since any css is embedded, and run same. There have been no differences in both versions, except I did find I needed to change the way the pictures were called in terms of file paths once hosted on githubpages, hence the last minute or latest commits. 
+In order to run the code locally for this project, simply download all html files, ignoring the css style sheet since any css is embedded, and run same. There have been no differences in both versions, except I did find I needed to change the way the pictures were called in terms of file paths once hosted on githubpages, hence the last minute or latest commits. I also had to do some last minute changes, after the site was live, to include all alt tags in the images, again please bear in mind I've done this without a mentor. 
+
+# Other Reflections, as I commence my new path as a software developer. 
+
+The one outcome this project had on me was it left me with a real appreciation and respect for great website development. 
+When I commenced, I thought to myself, this will be easy, this will be great, HTML is easy, CSS is easy. Well that was not my experience as I began to write code. I found myself so frustrated when stuff would not work as planned. Some of the challenges I had were when my modals wouldn't work - I couldn't figure it out. I went back to the lessons and evetually discovered that I did not link the correct data target - this is something I spent about an hour on (I know, humbling). The other challenge I faced was I genuinely didn't understand that I needed to include rows in the bootstrap code, even though it was on the lessons. As I understand it now this has to be called since it's what bootstrap uses as the basis of it's 12 columns. Again, when building the home page I totally omitted this, and spent probably another hour or so sifting through the lessons trying to figure out where I was going wrong. Overall it has been a real learning curve, but I've thoroughly enjoyed it. It's pushed me into working harder as I now know that these things arent that easy. 
 
 
 # Credits
