@@ -63,6 +63,8 @@ On further retrospect I would have liked to have built a modal feature or simila
 
 I'd also like to have the background image across the site moving and changing dymanically from a carousel in the background or similar, or even fading in and out.
 
+A bug I cam across was on the tunes.html page - I couldn't get the top of the navbar to leave space between it and the navbar, so I simply placed an uncontented div a a 12th on the grid when extra small in order to create some negative space. 
+
 ### Technologies Used
 
 Bootstrap, used to style everything, minimal CSS used (embedded) - https://getbootstrap.com/
@@ -82,6 +84,8 @@ I went through all pages, and tried every piece of them - they we're all fine. T
 
 The site responds to re-sizing well I must say, it looks better in fact on mobile that it does on desktop. 
 
+The site was tested on all browsers - chrome, mozilla and explorer.
+
 One issue I did run into when testing on smaller screen sizes was the sections on home and about pages where there is a band pic with quotes. I initially used the bootstrap class of media-left as I had seen in one of the lessons in order to place the quotes there, but I then realised it didn't respond to re-sizing well, when I changed it to media bottom this solved the problem. 
 
 Similar with images, I initially used the bootstrap class of img-fluid, but later changed to img-responsive as again it worked properly on smaller screen sizes.
@@ -100,7 +104,7 @@ In order to run the code locally for this project, simply download all html file
 # Other Reflections, as I commence my new path as a software developer. 
 
 The one outcome this project had on me was it left me with a real appreciation and respect for great website development. 
-When I commenced, I thought to myself, this will be easy, this will be great, HTML is easy, CSS is easy. Well that was not my experience as I began to write code. I found myself so frustrated when stuff would not work as planned. Some of the challenges I had were when my modals wouldn't work - I couldn't figure it out. I went back to the lessons and evetually discovered that I did not link the correct data target - this is something I spent about an hour on (I know, humbling). The other challenge I faced was I genuinely didn't understand that I needed to include rows in the bootstrap code, even though it was on the lessons. As I understand it now this has to be called since it's what bootstrap uses as the basis of it's 12 columns. Again, when building the home page I totally omitted this, and spent probably another hour or so sifting through the lessons trying to figure out where I was going wrong. Overall it has been a real learning curve, but I've thoroughly enjoyed it. It's pushed me into working harder as I now know that these things arent that easy. 
+When I commenced, I thought to myself, this will be easy, this will be great, HTML is easy, CSS is easy. Well that was not my experience as I began to write code. I found myself so frustrated when stuff would not work as planned. Some of the challenges I had were when my modals wouldn't work - I couldn't figure it out. I went back to the lessons and evetually discovered that I did not link the correct data target - this is something I spent about an hour on (I know, humbling). The other challenge I faced was I genuinely didn't understand that I needed to include rows in the bootstrap code, even though it was on the lessons. As I understand it now this has to be called since it's what bootstrap uses as the basis of it's 12 columns. Again, when building the home page I totally omitted this, and spent probably another hour or so sifting through the lessons trying to figure out where I was going wrong. Overall it has been a real learning curve, but I've thoroughly enjoyed it. It's pushed me into working harder as I now know that these things arent that easy. I do also wonder if it would be possible to reduce the amount of divs, or the overall amount of code that I've used - in order to make things neater - perhaps that is a lesson for later on.
 
 
 # Credits
