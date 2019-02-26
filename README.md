@@ -8,7 +8,7 @@ The content is design to be just enough to fulfill this aim/goal. It is also my 
 
 # UX
 
-The UX for this site is to keep things simple and eaay to navigate. The website is intended for, as an example, John Doe - Persona
+The UX for this site is to keep things simple and easy to navigate. The website is intended for, as an example, John Doe - Persona
 
 John is 48 years old and loves music, 
 he particularly likes music that brings him back to his younger days when things were fun and life was light. 
@@ -61,6 +61,8 @@ I would also like to fully build out the search our site functionality and then 
 
 On further retrospect I would have liked to have built a modal feature or similar which would serve the user with upcoming show dates. I would have liked to included this on the pages that weren't the upcominggigs page, so as to allow them to explore other dates without navigating to the upcoming show page. 
 
+I'd also like to have the background image across the site moving and changing dymanically from a carousel in the background or similar, or even fading in and out.
+
 ### Technologies Used
 
 Bootstrap, used to style everything, minimal CSS used (embedded) - https://getbootstrap.com/
@@ -78,7 +80,7 @@ I went through all pages, and tried every piece of them - they we're all fine. T
 
 The site responds to re-sizing well I must say, it looks better in fact on mobile that it does on desktop. 
 
-That's the central reason I left the background image of the site to repeat itself, it actually seems more atmospheric - I asked some friends their opinion and they mostly concluded which I thought was good evidence. 
+That's the central reason I left the background image of the site to the same on all pages, it actually seems more atmospheric and coherent to the user - I asked some friends their opinion and they mostly concluded which I thought was good evidence. 
 
 Other things that I tested were the modals and if they worked etc, again I didn't code and functionality into them like returning errors etc I understand that's outside of the scope and would require javascript. 
 
@@ -87,7 +89,7 @@ Other things that I tested were the modals and if they worked etc, again I didn'
 I have deployed the project using github pages. 
 This was done simply by setting up same on the repository on github where I placed the files.
 When it comes to version control, since most of the page styling is the same, I added the footers, headers etc as commits and then just committed each page as a new piece of functionality, it seemed to make sense that way. I must also admit that the I initially didn't use github when coding the site, since it took me a bit of trial and error to get things to work and I simply saved them in cloud9, but I did commit the main pieces. 
-In order to run the code locally for this project, simply download all html files, ignoring the css style sheet since any css is embedded, and run same. There have been no differences in both versions, except I did find I needed to change the way the pictures were called in terms of file paths once hosted on githubpages, hence the last minute or latest commits. I also had to do some last minute changes, after the site was live, to include all alt tags in the images, again please bear in mind I've done this without a mentor. 
+In order to run the code locally for this project, simply download all html files, ignoring the css style sheet since any css is embedded, and run same. There have been no differences in both versions, except I did find I needed to change the way the pictures were called in terms of file paths once hosted on githubpages, hence the last minute or latest commits. I also had to do some last minute changes, after the site was live, to include all alt tags in the images and then change file paths which were different in cloud9, again please bear in mind I've done this without a mentor. 
 
 # Other Reflections, as I commence my new path as a software developer. 
 
