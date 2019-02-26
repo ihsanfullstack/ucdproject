@@ -66,7 +66,7 @@ I'd also like to have the background image across the site moving and changing d
 ### Technologies Used
 
 Bootstrap, used to style everything, minimal CSS used (embedded) - https://getbootstrap.com/
-jquery and some javascript plugins, which were provided though I used these as bootstrap told me to in order to run the modals etc. 
+jquery and some javascript plugins, which were provided though I used these as bootstrap told me to in order to run the modals etc. These had previously been included in the lesson content so I was aware of what to include. 
 Any CSS used was done in embedded form, this really was because bootstrap did so much of the work for me.
 I also used google fonts, and font awesome to style some of the text throughout the site, and typography and for the logos / icons used - https://fontawesome.com/ / https://fonts.google.com/
 I had initially intended to use different color schemes etc, and do some custom CSS styling to the elements but I was so happy with the layout that bootstrap gave that I only did some minor embedded CSS. I know this isn't best practise, but when I was trying to get everything finished it was the quickest way rather than linking a sheet and doing the element selectors etc. That is something that I really do understand but I felt that the site really is fit for purpose as is. 
@@ -110,4 +110,4 @@ The content for the quotes from the band were too found on their site
 ## Media
 The photos used in this site were obtained from the Blasters' current live website
 ## Acknowledgements
-I received inspiration for this project from fleetwoodmac.com, pbp.ie
+I received inspiration for this project from fleetwoodmac.com, pbp.ie & www.theblasters.com
