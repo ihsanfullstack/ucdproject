@@ -81,6 +81,10 @@ I went through all pages, and tried every piece of them - they we're all fine. T
 
 The site responds to re-sizing well I must say, it looks better in fact on mobile that it does on desktop. 
 
+One issue I did run into when testing on smaller screen sizes was the sections on home and about pages where there is a band pic with quotes. I initially used the bootstrap class of media-left as I had seen in one of the lessons in order to place the quotes there, but I then realised it didn't respond to re-sizing well, when I changed it to media bottom this solved the problem. 
+
+Similar with images, I initially used the bootstrap class of img-fluid, but later changed to img-responsive as again it worked properly on smaller screen sizes.
+
 That's the central reason I left the background image of the site to the same on all pages, it actually seems more atmospheric and coherent to the user - I asked some friends their opinion and they mostly concluded which I thought was good evidence. 
 
 Other things that I tested were the modals and if they worked etc, again I didn't code and functionality into them like returning errors etc I understand that's outside of the scope and would require javascript. 
