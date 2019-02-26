@@ -69,6 +69,7 @@ Bootstrap, used to style everything, minimal CSS used (embedded) - https://getbo
 jquery and some javascript plugins, which were provided though I used these as bootstrap told me to in order to run the modals etc. 
 Any CSS used was done in embedded form, this really was because bootstrap did so much of the work for me.
 I also used google fonts, and font awesome to style some of the text throughout the site, and typography and for the logos / icons used - https://fontawesome.com/ / https://fonts.google.com/
+I had initially intended to use different color schemes etc, and do some custom CSS styling to the elements but I was so happy with the layout that bootstrap gave that I only did some minor embedded CSS. I know this isn't best practise, but when I was trying to get everything finished it was the quickest way rather than linking a sheet and doing the element selectors etc. That is something that I really do understand but I felt that the site really is fit for purpose as is. 
 
 
 # Testing
