@@ -4,7 +4,7 @@ This project is designed to showcase and highlight the great music made by the B
 It's goal is to provide the end user with excitement and inspiration such that they would possibly like to see the band play live, and to allow them to book tickets should they wish. 
 I have purposely left in the section of 3 most soon upcoming shows in most pages in the site in order to drive ticket sales and allow the user to do same. 
 The content is design to be just enough to fulfill this aim/goal. It is also my intention to show this to the band too, as I feel their existing site leaves a little to be desired. 
-**Please note I'm entirely new to this and I have not had a mentor for this project**
+**Please note I'm entirely new to this and I have not had a mentor nor any tutor support for this project**
 
 # UX
 
