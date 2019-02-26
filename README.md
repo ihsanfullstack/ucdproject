@@ -68,6 +68,7 @@ I'd also like to have the background image across the site moving and changing d
 Bootstrap, used to style everything, minimal CSS used (embedded) - https://getbootstrap.com/
 jquery and some javascript plugins, which were provided though I used these as bootstrap told me to in order to run the modals etc. 
 Any CSS used was done in embedded form, this really was because bootstrap did so much of the work for me.
+I also used google fonts, and font awesome to style some of the text throughout the site, and typography and for the logos / icons used - https://fontawesome.com/ / https://fonts.google.com/
 
 
 # Testing
