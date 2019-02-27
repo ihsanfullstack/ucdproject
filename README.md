@@ -63,6 +63,8 @@ On further retrospect I would have liked to have built a modal feature or simila
 
 I'd also like to have the background image across the site moving and changing dymanically from a carousel in the background or similar, or even fading in and out.
 
+The footer feature that allows download of the global tout dates, this is currently not linked to a pdf etc, but that is something I'm planning on finishing before I suggest it to the band. 
+
 A bug I cam across was on the tunes.html page - I couldn't get the top of the navbar to leave space between it and the navbar, so I simply placed an uncontented div a a 12th on the grid when extra small in order to create some negative space. 
 
 ### Technologies Used
