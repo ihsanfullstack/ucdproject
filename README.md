@@ -67,6 +67,8 @@ The footer feature that allows download of the global tout dates, this is curren
 
 A bug I cam across was on the tunes.html page - I couldn't get the top of the navbar to leave space between it and the navbar, so I simply placed an uncontented div a a 12th on the grid when extra small in order to create some negative space. 
 
+I was unable to locate the official social media channels for the band (there seem to be many, hard to tell which is which) so I've left the link to the social channels blank. My understanding is it's okay to do this since the site is meant to be static/front-end only.
+
 ### Technologies Used
 
 Bootstrap, used to style everything, minimal CSS used (embedded) - https://getbootstrap.com/
