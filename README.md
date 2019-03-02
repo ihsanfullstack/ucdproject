@@ -88,7 +88,7 @@ I went through all pages, and tried every piece of them - they we're all fine. T
 
 The site responds to re-sizing well I must say, it looks better in fact on mobile that it does on desktop. 
 
-The site was tested on all browsers - chrome, mozilla and explorer.
+The site was tested on all browsers - chrome, safari, mozilla and explorer.
 
 One issue I did run into when testing on smaller screen sizes was the sections on home and about pages where there is a band pic with quotes. I initially used the bootstrap class of media-left as I had seen in one of the lessons in order to place the quotes there, but I then realised it didn't respond to re-sizing well, when I changed it to media bottom this solved the problem. 
 
